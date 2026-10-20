@@ -4,11 +4,12 @@ I build web products, migrate data and modernize existing systems, with a focus 
 
 [Portfolio](https://madanpark.com) · [Repositories](https://github.com/MadanChaollaPark?tab=repositories)
 
-## Hackathon awards
+## Most Recent Hackathon Wins
 
-- **OpenAI hackathon — 2nd place**, June 2026.
+- **OpenAI hackathon — 2nd place**.
 - **ElevenLabs × Zed hackathon — 2nd place**.
-- **MolenGeek hackathon — winner**.
+- **Elevenlabs - 1st place**.
+- **Anthropic - 1st place**.
 
 ## Selected engineering work
 
