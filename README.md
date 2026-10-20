@@ -35,3 +35,5 @@ The case studies distinguish the live reader, migration work with remaining acce
 - **Frontend work:** build responsive interfaces with keyboard navigation, consistent themes and explicit checks for broken links, missing assets and metadata.
 
 EUJobs is a product I built and sold; its repository documents the current implementation. The ITCCK case study focuses on the migration software. Public examples use fictional data and exclude client mail and credentials.
+
+Never knew I'd get into software! Started out with politics and law!
