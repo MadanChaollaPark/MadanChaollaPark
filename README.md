@@ -1,19 +1,22 @@
-# I build and ship web products.
+# Software projects
 
-My work spans product interfaces, payments, APIs and the operations that keep applications running.
+I build web applications and data-migration tooling, with a focus on clear interfaces, reliable state transitions and verifiable results.
 
-## Featured: EUJobs — built and sold
+[Portfolio](https://madanpark.com) · [Repositories](https://github.com/MadanChaollaPark?tab=repositories)
 
-A European careers platform for jobs, policy events and professional resources. The current application combines employer payments, editorial review, accounts, alerts, calendar purchases and read-only API/MCP access.
+## Selected engineering work
 
-[**Explore the source and case study →**](https://github.com/MadanChaollaPark/eujobs) · [Live product](https://eujobs.co)
+| Project | Software skills demonstrated | Explore |
+| --- | --- | --- |
+| **EUJobs** | TypeScript, Next.js, React, SQLite, Stripe payments, authentication, public API/MCP and automated tests | [Source](https://github.com/MadanChaollaPark/eujobs) · [Architecture](https://github.com/MadanChaollaPark/eujobs/blob/main/docs/ARCHITECTURE.md) · [Live app](https://eujobs.co) |
+| **Gmail migration tools — ITCCK work** | Python, Gmail API/OAuth, resumable uploads, atomic checkpoints, MIME parsing, duplicate handling and independent reconciliation | [Source and variants](https://github.com/MadanChaollaPark/gmail-migration-tools) · [Engineering case study](https://github.com/MadanChaollaPark/gmail-migration-tools/blob/main/docs/CASE_STUDY.md) |
+| **madanpark.com** | HTML, CSS and JavaScript; responsive layouts, theme interactions, semantic markup, metadata and automated route/asset checks | [Current site source](https://github.com/MadanChaollaPark/madanpark.com/tree/main/site) · [Website](https://madanpark.com) |
+| **GPTandME** | JavaScript browser extension, local storage and prompt-counting interfaces across AI chat tools | [Source](https://github.com/MadanChaollaPark/gptandme) |
 
-[![EUJobs — Good work. Great connections.](https://raw.githubusercontent.com/MadanChaollaPark/eujobs/main/docs/images/eujobs-home.png)](https://github.com/MadanChaollaPark/eujobs)
+## Implementation details
 
-**Next.js · React · TypeScript · Node.js · SQLite · Stripe · Azure**
+- **Web applications:** model payments, ownership, moderation and expiry as separate states; test the boundaries.
+- **Migration tooling:** preserve source bytes, bind authorization to the intended account, checkpoint each outcome and reconcile uncertain uploads before retrying.
+- **Frontend work:** build responsive interfaces with keyboard navigation, consistent themes and explicit checks for broken links, missing assets and metadata.
 
-The public repository includes the application source, architecture notes, setup guide and automated checks. The case study separates the product's commercial history from the current implementation.
-
-## More work
-
-Browse my [repositories](https://github.com/MadanChaollaPark?tab=repositories) for other projects and experiments.
+EUJobs is a product I built and sold; its repository documents the current implementation. The ITCCK case study focuses on the migration software. Public examples use fictional data and exclude client mail and credentials.
